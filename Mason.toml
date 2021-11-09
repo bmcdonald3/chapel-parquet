@@ -1,0 +1,12 @@
+
+[brick]
+name = "Parquet"
+chplVersion = "1.26.0"
+compopts = "-larrow -lparquet"
+license = "None"
+version = "0.1.0"
+
+[dependencies]
+
+[external]
+arrow+parquet = "arrow+parquet@4.0.1"
